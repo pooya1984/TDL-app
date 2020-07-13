@@ -1,0 +1,149 @@
+body {
+  background: rgb(231, 228, 228);
+}
+
+.logo {
+  position: absolute;
+  width: 600px;
+  height: 105px;
+
+  font-family: Bungee Inline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 86px;
+  text-align: center;
+
+  color: #a80000;
+}
+
+/* Navbar Header */
+
+.navbar {
+  position: relative;
+  height: 110px;
+  background-color: rgb(231, 228, 228);
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar a {
+  font-size: 30px;
+}
+.navbar p {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* loging box flow */
+
+.loging-box {
+  position: relative;
+  width: 613px;
+  height: 800px;
+  left: 28%;
+
+  background: rgb(175, 175, 175);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loging-box form {
+  position: absolute;
+  width: 187px;
+  height: 22px;
+  left: 165px;
+  top: 100px;
+}
+
+.loging-box form p {
+  width: 300px;
+  height: 22px;
+  margin-top: 30px;
+
+  font-family: Bungee Inline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.loging-box span {
+  color: rgb(226, 38, 38);
+}
+
+.loging-box form input {
+  width: 275px;
+  height: 40px;
+  text-align: center;
+
+  background: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loging-box form button {
+  position: relative;
+  width: 152px;
+  height: 40px;
+  top: 60px;
+  left: 70px;
+  margin-bottom: 60px;
+  color: white;
+
+  background: #2bb171;
+  border: 1px solid #2bb171;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  font-family: Bungee Inline;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* todolist's Posts */
+.post {
+  position: relative;
+  top: 100px;
+  padding: 20px;
+  margin-top: 10px;
+  width: 90%;
+
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+}
+
+.todoInput {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  left: 50px;
+  margin-bottom: 50px;
+
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
+
+  text-align: center;
+}
+.todoSubmit {
+  position: relative;
+  width: 65px;
+  height: 60px;
+  right: 34px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+
+  background-color: rgb(94, 241, 9);
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
+
+  text-align: center;
+  color: white;
+
+  z-index: 10;
+}
