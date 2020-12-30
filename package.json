@@ -6,8 +6,9 @@
   "scripts": {
     "test": "node server",
     "server": "nodemon server",
+    "mobile":"npm start --prefix mobile",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run mobile\""
   },
   "author": "pooya nodehi",
   "license": "MIT",
